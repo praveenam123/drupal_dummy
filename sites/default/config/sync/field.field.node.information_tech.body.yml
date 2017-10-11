@@ -1,0 +1,22 @@
+uuid: a8ab3ab2-c29b-4c24-8ade-da55b4336bb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.information_tech
+  module:
+    - text
+id: node.information_tech.body
+field_name: body
+entity_type: node
+bundle: information_tech
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

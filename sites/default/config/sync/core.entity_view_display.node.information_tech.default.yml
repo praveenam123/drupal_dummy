@@ -1,0 +1,26 @@
+uuid: 2bf5c49d-869c-407f-9c85-bf63fab067f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.information_tech.body
+    - node.type.information_tech
+  module:
+    - text
+    - user
+id: node.information_tech.default
+targetEntityType: node
+bundle: information_tech
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
