@@ -1,0 +1,14 @@
+uuid: 619f4be8-b4e9-4f2b-ba38-53aad6de9d78
+name: drupal_one
+mail: praveena2805@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
