@@ -1,0 +1,9 @@
+uuid: f091a7fa-66f0-4d47-917e-1c63b04c5966
+langcode: en
+status: true
+dependencies: {  }
+name: 'information tech'
+vid: information_tech
+description: ''
+hierarchy: 0
+weight: 0
