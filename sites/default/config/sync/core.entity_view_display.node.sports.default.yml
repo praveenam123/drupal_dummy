@@ -1,0 +1,26 @@
+uuid: e2f7dc3c-dbcd-4d15-b047-6db48e005e99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sports.body
+    - node.type.sports
+  module:
+    - text
+    - user
+id: node.sports.default
+targetEntityType: node
+bundle: sports
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

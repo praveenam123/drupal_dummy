@@ -1,0 +1,22 @@
+uuid: 35bc0aa2-660e-4c16-9f33-10acecd32b49
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.praveena
+  module:
+    - text
+id: node.praveena.body
+field_name: body
+entity_type: node
+bundle: praveena
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,28 @@
+uuid: c104cb2f-a1a2-42ac-9c64-ee204d7dc5c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.praveena.body
+    - node.type.praveena
+  module:
+    - text
+    - user
+id: node.praveena.teaser
+targetEntityType: node
+bundle: praveena
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,26 @@
+uuid: 54f8edc5-9f85-4060-b602-c606617097a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.praveena.body
+    - node.type.praveena
+  module:
+    - text
+    - user
+id: node.praveena.default
+targetEntityType: node
+bundle: praveena
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
